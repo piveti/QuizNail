@@ -1,5 +1,6 @@
 import { PAGE } from '../data/page'
 import { CTAButton } from './CTAButton'
+import { Image } from './Image'
 
 export function Raffle() {
   const { raffle, checkoutUrl } = PAGE
@@ -7,18 +8,20 @@ export function Raffle() {
   return (
     <section className="section-dark py-20 px-4">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        <img
+        <Image
           src={raffle.image}
           alt="Sorteio Kit Manicure"
           className="w-full md:w-80 object-contain rounded-2xl"
-          loading="lazy"
         />
 
         <div className="flex flex-col gap-6 flex-1">
-          <p className="text-brand-gold font-bold uppercase tracking-widest text-sm">
+          <p
+            className="font-bold uppercase tracking-widest text-sm"
+            style={{ background: 'linear-gradient(133deg,#F30082,#C5075E)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontFamily: "'Montserrat', sans-serif" }}
+          >
             Ainda tem mais uma coisinha…
           </p>
-          <h2 className="text-2xl md:text-3xl font-black text-white leading-snug">
+          <h2 className="text-2xl md:text-3xl font-black text-white leading-snug" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             {raffle.heading}
           </h2>
           <p

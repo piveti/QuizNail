@@ -1,4 +1,5 @@
 import { PAGE } from '../data/page'
+import { Image } from './Image'
 
 export function Guarantee() {
   const { guarantee } = PAGE
@@ -6,11 +7,10 @@ export function Guarantee() {
   return (
     <section className="section-darker py-16 px-4">
       <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8">
-        <img
+        <Image
           src={guarantee.image}
           alt={`Garantia ${guarantee.days} dias`}
           className="w-36 md:w-44 object-contain flex-shrink-0"
-          loading="lazy"
         />
 
         <div className="flex flex-col gap-3 text-center md:text-left">

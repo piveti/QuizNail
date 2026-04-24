@@ -9,6 +9,7 @@ export function About() {
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-8 text-center">
         <h2
           className="text-3xl md:text-5xl font-black leading-tight"
+          style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800 }}
           dangerouslySetInnerHTML={{ __html: about.heading }}
         />
 

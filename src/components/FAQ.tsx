@@ -16,9 +16,12 @@ export function FAQ() {
     <section className="section-dark py-20 px-4">
       <div className="max-w-3xl mx-auto flex flex-col gap-8">
         <div className="text-center">
-          <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">FAQ</p>
-          <h2 className="text-3xl md:text-4xl font-black text-white">
-            <strong>Perguntas</strong> frequentes
+          <p className="text-xs uppercase tracking-widest mb-1" style={{ color: 'rgba(243,0,130,0.6)', fontFamily: "'Montserrat', sans-serif" }}>FAQ</p>
+          <h2
+            className="text-3xl md:text-4xl font-black text-white"
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
+          >
+            Perguntas frequentes
           </h2>
         </div>
 
@@ -28,11 +31,12 @@ export function FAQ() {
               <button
                 className="w-full flex items-center justify-between px-5 py-4 text-left
                            font-semibold text-white hover:bg-white/5 transition-colors"
+                style={{ fontFamily: "'Poppins', sans-serif" }}
                 onClick={() => toggle(i)}
                 aria-expanded={open === i}
               >
                 <span>{item.q}</span>
-                <span className="ml-4 text-yellow-400 text-xl flex-shrink-0">
+                <span className="ml-4 text-xl flex-shrink-0" style={{ color: '#F30082' }}>
                   {open === i ? '−' : '+'}
                 </span>
               </button>

@@ -6,15 +6,23 @@ export default {
     extend: {
       colors: {
         brand: {
-          gold: '#f9dcb5',
-          amber: '#ebd48d',
-          dark: '#131212',
-          purple: '#3d2939',
-          green: '#c1e673',
+          // Magenta principal do original
+          magenta: '#F30082',
+          'magenta-dark': '#C5075E',
+          // Fundos de seção
+          dark: '#141414',
+          darker: '#0d0c0c',
+          purple: '#2A1030',
+          // Mantidos por retrocompatibilidade
+          gold: '#F30082',
+          amber: '#C5075E',
+          green: '#F30082',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        sora: ['Sora', 'sans-serif'],
       },
     },
   },

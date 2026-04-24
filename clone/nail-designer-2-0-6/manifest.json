@@ -1,0 +1,121 @@
+{
+  "source_url": "https://naildesignerescoladeunhasprofissionais.com/nail-designer-2-0-6/",
+  "generated_at": "2026-04-23T12:00:51Z",
+  "css_files": 28,
+  "inline_blocks": 13,
+  "fonts_downloaded": 68,
+  "css_manifest": [
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/themes/hello-elementor/style.min.css?ver=3.1.1",
+      "local": "css/style.min.css_ver_3_1_1.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.1.1",
+      "local": "css/theme.min.css_ver_3_1_1.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.1.1",
+      "local": "css/header-footer.min.css_ver_3_1_1.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1776792472",
+      "local": "css/custom-frontend.min.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/post-5.css?ver=1776792472",
+      "local": "css/post-5.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1776792472",
+      "local": "css/custom-pro-frontend.min.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.3",
+      "local": "css/widget-image.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.3",
+      "local": "css/widget-heading.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css?ver=1776792472",
+      "local": "css/custom-widget-icon-box.min.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.0.3",
+      "local": "css/fadeInDown.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/custom-widget-image-box.min.css?ver=1776792472",
+      "local": "css/custom-widget-image-box.min.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=4.0.3",
+      "local": "css/widget-video.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/custom-widget-star-rating.min.css?ver=1776792472",
+      "local": "css/custom-widget-star-rating.min.css_ver_1776792472.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.0.3",
+      "local": "css/fadeInLeft.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.0.3",
+      "local": "css/fadeIn.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1776792519",
+      "local": "css/swiper.min.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.0.3",
+      "local": "css/e-swiper.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.0.3",
+      "local": "css/widget-image-carousel.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.0.3",
+      "local": "css/e-animation-shrink.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=4.0.3",
+      "local": "css/zoomIn.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=4.0.3",
+      "local": "css/widget-nested-accordion.min.css_ver_4_0_3.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/background-css/naildesignerescoladeunhasprofissionais.com/wp-content/uploads/elementor/css/post-1853.css?ver=1776792667&wpr_t=1776792667",
+      "local": "css/post-1853.css_ver_1776792667_wpr_t_177679266.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1776792519",
+      "local": "css/montserrat.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1776792519",
+      "local": "css/sora.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1776792519",
+      "local": "css/poppins.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/dmsans.css?ver=1776792519",
+      "local": "css/dmsans.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/manrope.css?ver=1776792519",
+      "local": "css/manrope.css_ver_1776792519.css"
+    },
+    {
+      "original": "https://naildesignerescoladeunhasprofissionais.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/nunitosans.css?ver=1776792519",
+      "local": "css/nunitosans.css_ver_1776792519.css"
+    }
+  ]
+}

@@ -1,55 +1,86 @@
 import { PAGE } from '../data/page'
-
-const ICONS: Record<string, string> = {
-  'Cutilagem Profissional': '✂️',
-  'Fibra de Vidro': '💎',
-  'Molde F1': '💅',
-  'Encapsuladas': '✨',
-  'Esmaltação em Gel': '💜',
-  'Polygel': '🌸',
-  'Alongamento Natural': '🌟',
-  'Baby Boomer': '🤍',
-  'Nail Art Avançada': '🎨',
-  'Manutenção Completa': '🛠️',
-}
+import { ImageMap } from '../data/imageMap'
+import { Image } from './Image'
 
 export function Techniques() {
   const { techniques } = PAGE
 
   return (
     <section className="section-dark py-20 px-4">
-      <div className="max-w-5xl mx-auto flex flex-col items-center gap-10">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-10">
+
+        {/* Heading */}
         <div className="text-center">
-          <p className="text-brand-gold font-bold tracking-widest uppercase text-sm mb-2">
+          <p
+            className="font-bold tracking-widest uppercase text-sm mb-2"
+            style={{
+              background: 'linear-gradient(133deg,#F30082,#C5075E)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              fontFamily: "'Montserrat', sans-serif",
+            }}
+          >
             {techniques.subheading}
           </p>
-          <h2 className="text-3xl md:text-4xl font-black text-white">{techniques.heading}</h2>
+          <h2
+            className="text-3xl md:text-4xl font-black text-white"
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
+          >
+            {techniques.heading}
+          </h2>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 w-full">
-          {techniques.items.map((item) => (
-            <div
-              key={item}
-              className="flex flex-col items-center gap-3 bg-[#1e1b1b] border border-yellow-900/20
-                         rounded-2xl p-5 hover:border-yellow-500/40 transition-colors text-center"
-            >
-              <span className="text-3xl">{ICONS[item] ?? '💅'}</span>
-              <span className="text-sm font-semibold text-gray-200 leading-snug">{item}</span>
-            </div>
-          ))}
-        </div>
+        {/*
+         * Grid 4 colunas — fiel ao original (4 col desktop / 3 md / 2 sm / 1 xs)
+         * Cada card: imagem circular + badge emoji + título abaixo
+         */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5 w-full">
+          {techniques.items.map((item) => {
+            const imgSrc = ImageMap.moduleImages[item]
 
-        {/* Technique showcase images */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mt-4">
-          {Object.values(techniques.images).map((src, i) => (
-            <img
-              key={i}
-              src={src}
-              alt={`Técnica ${i + 1}`}
-              className="w-full aspect-square object-cover rounded-xl shadow-lg"
-              loading="lazy"
-            />
-          ))}
+            return (
+              <div
+                key={item}
+                className="flex flex-col items-center gap-3 rounded-2xl p-4 pb-5 text-center"
+                style={{
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(255,255,255,0.07)',
+                }}
+              >
+                {/* Moldura circular com imagem */}
+                <div className="relative w-full" style={{ paddingBottom: '100%' }}>
+                  <div
+                    className="absolute inset-0 rounded-full overflow-hidden"
+                    style={{ border: '2px solid rgba(255,255,255,0.1)' }}
+                  >
+                    {imgSrc ? (
+                      <Image
+                        src={imgSrc}
+                        alt={item}
+                        loading="lazy"
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div
+                        className="w-full h-full flex items-center justify-center text-3xl"
+                        style={{ background: '#1a0f1e' }}
+                      >
+                        💅
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Título */}
+                <span
+                  className="text-sm font-semibold text-gray-200 leading-snug"
+                  style={{ fontFamily: "'Poppins', sans-serif" }}
+                >
+                  {item}
+                </span>
+              </div>
+            )
+          })}
         </div>
       </div>
     </section>

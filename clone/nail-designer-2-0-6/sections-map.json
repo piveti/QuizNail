@@ -1,0 +1,256 @@
+[
+  {
+    "order": 1,
+    "label": "HERO — Logo + Vídeo hero + CTA principal",
+    "data_id": "18840d5e",
+    "heading": "Domine as Técnicas Mais Lucrativas do Mercado",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-heading",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [],
+    "videos": []
+  },
+  {
+    "order": 2,
+    "label": "PROPOSTA DE VALOR — Icon-boxes: Básico→Avançado / +130 Aulas / 25 Certs",
+    "data_id": "dbb40b",
+    "heading": "Domine as Técnicas Mais Lucrativas do Mercado",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-heading",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [],
+    "videos": []
+  },
+  {
+    "order": 3,
+    "label": "HEADLINE — 'Zero aos 7 Salários' + entrada fadeInDown",
+    "data_id": "51ece078",
+    "heading": "Esmaltação em Gel",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image-box",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Design-sem-nome-6.webp",
+      "images/Design-sem-nome-6.webp",
+      "images/2.png",
+      "images/2.png",
+      "images/3.png",
+      "images/3.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 4,
+    "label": "CURRÍCULO — Grade 4-col com 28 módulos (thumbnail + título)",
+    "data_id": "2afc735e",
+    "heading": "Além do Curso, Você Recebe Esses Bônus Exclusivos:",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-heading",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/3-1.png",
+      "images/3-1.png",
+      "images/Seu-Nome-1.webp",
+      "images/Seu-Nome-1.webp",
+      "images/Seu-Nome-1.png",
+      "images/Seu-Nome-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 5,
+    "label": "PREVIEW DE AULAS — Vídeos Vimeo embutidos",
+    "data_id": "260fa120",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/3-1.png",
+      "images/3-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 6,
+    "label": "BÔNUS — 9 image-box com star-rating 5★",
+    "data_id": "5f748246",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Seu-Nome-1.webp",
+      "images/Seu-Nome-1.webp"
+    ],
+    "videos": []
+  },
+  {
+    "order": 7,
+    "label": "ÁREA DE ESTUDOS — Screenshot da plataforma de ensino",
+    "data_id": "1d95d9f8",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Seu-Nome-1.png",
+      "images/Seu-Nome-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 8,
+    "label": "SORTEIO — Kit Manicure mensal",
+    "data_id": "1e443b27",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/2-1.png",
+      "images/2-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 9,
+    "label": "CERTIFICADOS — 25 certificados de conclusão",
+    "data_id": "629bee57",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/1-1.png",
+      "images/1-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 10,
+    "label": "URGÊNCIA + CTA — 🚨 Oferta com prazo + preço + botão",
+    "data_id": "52b441b7",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/4-1.png",
+      "images/4-1.png"
+    ],
+    "videos": []
+  },
+  {
+    "order": 11,
+    "label": "DEPOIMENTOS — Carrossel Swiper com avaliações de alunas",
+    "data_id": "7ebffd31",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Seu-Nome.webp",
+      "images/Seu-Nome.webp"
+    ],
+    "videos": []
+  },
+  {
+    "order": 12,
+    "label": "POR QUE TRABALHAR — 5 icon-boxes de argumentos",
+    "data_id": "6aa89e03",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Wind-Banner.webp",
+      "images/Wind-Banner.webp"
+    ],
+    "videos": []
+  },
+  {
+    "order": 13,
+    "label": "AVALIAÇÕES — Rating 4.97★ / 3.312 avaliações",
+    "data_id": "7e6c5ace",
+    "heading": "",
+    "widgets": [
+      "elementor-widget-container",
+      "elementor-widget-image",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget-star-rating",
+      "elementor-widget-text-editor",
+      "elementor-widget-wrap"
+    ],
+    "cta_buttons": [],
+    "images": [
+      "images/Wind-Banner-1.webp",
+      "images/Wind-Banner-1.webp"
+    ],
+    "videos": []
+  }
+]

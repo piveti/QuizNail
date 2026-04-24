@@ -1,5 +1,6 @@
 import { PAGE } from '../data/page'
 import { CTAButton } from './CTAButton'
+import { Image } from './Image'
 
 export function Hero() {
   const { hero, checkoutUrl } = PAGE
@@ -20,19 +21,25 @@ export function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 md:py-24 flex flex-col gap-6">
         {/* Logo */}
-        <img
+        <Image
           src={hero.logoUrl}
           alt="Nail Designer Logo"
           className="h-14 md:h-16 object-contain self-start"
         />
 
         {/* Badge */}
-        <span className="text-sm font-semibold text-brand-gold bg-white/10 rounded-full px-4 py-1 w-fit">
+        <span
+          className="text-sm font-semibold rounded-full px-4 py-1 w-fit"
+          style={{ background: 'linear-gradient(133deg,#F30082,#C5075E)', color: '#fff', fontFamily: "'Montserrat', sans-serif" }}
+        >
           {hero.badge}
         </span>
 
         {/* Headline */}
-        <h1 className="text-3xl md:text-5xl font-black leading-tight text-white text-shadow max-w-2xl">
+        <h1
+          className="text-3xl md:text-5xl font-black leading-tight text-white text-shadow max-w-2xl"
+          style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800 }}
+        >
           {hero.headline}
         </h1>
 

@@ -1,4 +1,5 @@
 import { PAGE } from '../data/page'
+import { Image } from './Image'
 
 export function WhatYouGet() {
   const { whatYouGet } = PAGE
@@ -13,12 +14,11 @@ export function WhatYouGet() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           {whatYouGet.mockupImages.map((src, i) => (
-            <img
+            <Image
               key={i}
               src={src}
               alt={`Conteúdo do curso ${i + 1}`}
               className="w-full rounded-2xl shadow-xl object-cover"
-              loading="lazy"
             />
           ))}
         </div>
